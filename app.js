@@ -45,7 +45,7 @@ app.use(function(req,res) {
 });
 
 //Schedule
-const job = schedule.scheduleJob('*/10 * * * *', function(){
+const job = schedule.scheduleJob('*/1 * * * *', function(){
   cocktailService.searchByRandom();
 });
 
