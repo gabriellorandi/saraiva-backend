@@ -1,0 +1,29 @@
+{
+  "name": "easypet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabriellorandi/easypet-backend.git"
+  },
+  "author": "Gabriel B. Lorandi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabriellorandi/easypet-backend/issues"
+  },
+  "homepage": "https://github.com/gabriellorandi/easypet-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http.request": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "kafkajs": "^1.15.0",
+    "mongoose": "^5.13.3",
+    "node-schedule": "^2.0.0"
+  }
+}
